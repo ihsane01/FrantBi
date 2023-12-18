@@ -1,0 +1,41 @@
+  /* Custom CSS */
+  .card {
+    width: 30%; /* Adjust the width as needed */
+    margin: 10px;
+    height: 250px; ; /* Set the desired height */
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  }
+
+  .card-container {
+    display: flex;
+    // justify-content: space-between;
+    flex-wrap: wrap;
+     margin-left: 50px; /* Adjust the margin as needed */
+    margin-right: 50px; /* Adjust the margin as needed */
+    margin-top: 20px; /* Adjust the margin as needed */
+    margin-bottom: 0px; /* Adjust the margin as needed */
+    gap: 20px; /* Adjust the gap between cards as needed */
+
+  }
+ 
+  .card mat-card {
+    height: 100%; /* Fill the height of the parent */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .card img {
+    max-height: 1000px; /* Adjust the maximum height of the image */
+    width: 40%; /* Make sure the image takes full width */
+    // object-fit: cover; /* Maintain aspect ratio and cover */
+    margin: 0 auto; /* Optional - center the image */
+  }
+
+  .card-content {
+    padding: 10px;
+    // flex-grow: 1; /* Allow content to grow to fill remaining space */
+  }

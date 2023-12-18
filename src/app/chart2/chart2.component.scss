@@ -1,0 +1,14 @@
+.chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px; /* Set the height of the container */
+    /* Add any additional styling for the container if needed */
+  }
+  
+ 
+  .small-chart {
+    width: 90%; /* Set the width of the chart canvas */
+    height: 90%; /* Set the height of the chart canvas */
+    /* Add any additional styling for the chart canvas if needed */
+  }
